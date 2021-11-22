@@ -16,7 +16,7 @@ jobs:
      - uses: actions/checkout@v2
      - uses: mr-smithers-excellent/docker-build-push@v5
        with:
-          image: suraj665/sings665
+          image: suraj665/nginxwebapp
           tags: v1, latest
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
